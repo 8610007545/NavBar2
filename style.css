@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(45, 4, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    background-color: yellow;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    border: 5px solid white;
+    box-shadow: 0px 0px 6px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border
+}
+ul li{
+    list-style-type: none;
+}
+ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition-property: underline;
+    transition-duration: 1s;
+}
